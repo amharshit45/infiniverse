@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
-import { GithubIcon, LinkedInIcon, XIcon } from "./icons";
+import { GithubIcon, LinkedInIcon, XIcon } from './icons';
 
 const Footer = () => (
   <motion.footer
