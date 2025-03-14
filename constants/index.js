@@ -1,3 +1,5 @@
+
+
 export const exploreWorlds = [
   {
     id: 'world-1',
@@ -63,23 +65,4 @@ export const insights = [
     title: 'With one platform you can explore the whole world virtually',
     subtitle:
       'Each individual adapts to challenges with strength. True growth comes from learning, perseverance, and embracing new opportunities.',  },
-];
-
-export const socials = [
-  {
-    name: 'x',
-    url: '/x.svg',
-    link: 'https://x.com/amharshit45'
-  },
-  {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/in/amharshit45/'
-  },
-  {
-    name: 'github',
-    url: '/github.svg',
-    link: 'https://github.com/amharshit45/'
-  },
-  
 ];

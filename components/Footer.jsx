@@ -5,6 +5,7 @@ import { socials } from '../constants';
 
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
+import { GithubIcon, LinkedinIcon, XIcon } from "./icons";
 
 const Footer = () => (
   <motion.footer
@@ -43,16 +44,15 @@ const Footer = () => (
           </p>
 
           <div className="flex gap-4">
-            {socials.map((social) => (
-              <a href={social.link}>
-                <img
-                  key={social.name}
-                  src={social.url}
-                  alt={social.name}
-                  className="w-[24px] h-[24px] object-contain cursor-pointer"
-                />
-              </a>
-            ))}
+            <a href="https://x.com/amharshit45" alt="X" className="w-[24px] h-[24px] object-contain cursor-pointer">
+              <XIcon></XIcon>
+            </a>
+            <a href="https://www.linkedin.com/in/amharshit45/" alt="LinkedIn" className="w-[24px] h-[24px] object-contain cursor-pointer">
+              <LinkedinIcon></LinkedinIcon>
+            </a>
+            <a href="https://github.com/amharshit45/" alt="GitHub" className="w-[24px] h-[24px] object-contain cursor-pointer">
+              <GithubIcon></GithubIcon>
+            </a>
           </div>
         </div>
       </div>
