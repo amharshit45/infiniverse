@@ -29,7 +29,7 @@ const Feedback = () => (
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-        "With today's technological advancements, the Metaverse has become highly beneficial for modern work and is often referred to as Web 3.0. It offers limitless possibilities, allowing you to use it in various ways. Infiniverse plans to play a pivotal role in the shaping of this new reality."
+        "With today's technological advancements, the Metaverse has become highly beneficial for modern work and is often referred to as Web 3.0. Infiniverse plans to play a pivotal role in the shaping of this new reality."
         </p>
       </motion.div>
 
