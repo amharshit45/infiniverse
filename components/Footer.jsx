@@ -52,7 +52,6 @@ const Footer = () => (
                   className="w-[24px] h-[24px] object-contain cursor-pointer"
                 />
               </a>
-              
             ))}
           </div>
         </div>
