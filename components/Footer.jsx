@@ -44,13 +44,13 @@ const Footer = () => (
 
           <div className="flex gap-4">
             <a href="https://x.com/amharshit45" alt="X" className="w-[24px] h-[24px] object-contain cursor-pointer">
-              <XIcon></XIcon>
+              <XIcon />
             </a>
             <a href="https://www.linkedin.com/in/amharshit45/" alt="LinkedIn" className="w-[24px] h-[24px] object-contain cursor-pointer">
-              <LinkedInIcon></LinkedInIcon>
+              <LinkedInIcon />
             </a>
             <a href="https://github.com/amharshit45/" alt="GitHub" className="w-[24px] h-[24px] object-contain cursor-pointer">
-              <GithubIcon></GithubIcon>
+              <GithubIcon />
             </a>
           </div>
         </div>
