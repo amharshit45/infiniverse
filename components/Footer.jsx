@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
-import { GithubIcon, LinkedinIcon, XIcon } from "./icons";
+import { GithubIcon, LinkedInIcon, XIcon } from "./icons";
 
 const Footer = () => (
   <motion.footer
@@ -47,7 +47,7 @@ const Footer = () => (
               <XIcon></XIcon>
             </a>
             <a href="https://www.linkedin.com/in/amharshit45/" alt="LinkedIn" className="w-[24px] h-[24px] object-contain cursor-pointer">
-              <LinkedinIcon></LinkedinIcon>
+              <LinkedInIcon></LinkedInIcon>
             </a>
             <a href="https://github.com/amharshit45/" alt="GitHub" className="w-[24px] h-[24px] object-contain cursor-pointer">
               <GithubIcon></GithubIcon>
